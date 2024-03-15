@@ -2,9 +2,9 @@ const steamUser = require('steam-user');
 const steamTotp = require('steam-totp');
 const keep_alive = require('./keep_alive.js')
 
-var username = process.env.username;
-var password = process.env.password;
-var shared_secret = process.env.shared;
+var username = process.env.TayZahR09;
+var password = process.env.Deadmatch76;
+var shared_secret = process.env.76561199447497347;
 
 var games = [271590, 221040, 381210, 1172470, 739630, 550, 883710, 1196590, 418370, 489830, 952060, 386940, 952070, 500, 440, 1236300, 648800, 386940, 21690, 242760, 477160, 254700, 470220, 641990, 222480];  // Enter here AppIDs of the needed games
 var status = 1;  // 1 - online, 7 - invisible
